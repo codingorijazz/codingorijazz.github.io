@@ -3,6 +3,13 @@ aliases:
   - 퍼셉트론이란?
   - 퍼셉트론이란?
 ---
+--- 
+layout: post 
+title: "퍼셉트론(Perceptron)이 뭘까?" 
+
+---
+
+
 # 퍼셉트론(Perceptron)이 뭘까?
 
 - 퍼셉트론은 가장 기본적인 인공 신경망 모델이다.
