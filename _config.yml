@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "GGyolly"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "💻 keep studying 📜"
+  bio              : "너가 게을러질때엔 널 믿어주는 사람들을 무시하는 때이다."
   location         : "Korea"
   email            :
   links:
@@ -125,9 +125,9 @@ author:
     - label: "이호수 - 무너진마음"
       icon: "fas fa-fw fa-link"
       url: "https://codingorijazz.github.io/my-first-web-site/"
-    # - label: "Twitter"
-    #  icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
+    - label: "Seasover"
+      icon: "fas fa-fw fa-link"
+      url: "https://smartstore.naver.com/osea"
     #- label: "Facebook"
     #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
