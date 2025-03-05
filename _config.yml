@@ -15,13 +15,13 @@
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko-KR" # 블로그 언어
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Ori JAZZ"
+title                    : "Ori_JAZZ.log" # 블로그 이름 
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "GGyolly"  # 블로그에서 사용될 닉네임
+description              : "너가 게을러질때엔 널 믿어주는 사람들을 무시하는 때이다."
 url                      : "https://codingorijazz.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -113,30 +113,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
+  name             : "GGyolly"
+  avatar           : "/assets/images/bio-photo.jpg"
+  bio              : "💻 keep studying 📜"
+  location         : "Korea"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
-    - label: "Website"
+      url: "mailto:coding_jazzman@naver.com"
+    - label: "이호수 - 무너진마음"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      url: "https://codingorijazz.github.io/my-first-web-site/"
+    # - label: "Twitter"
+    #  icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    #- label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/codingorijazz"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/lake__leeee/"
 
 # Site Footer
 footer:
@@ -144,21 +144,21 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    # - label: "Facebook"
+    #  icon: "fab fa-fw fa-facebook-square"
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
+      url: "https://github.com/codingorijazz"
+    #- label: "GitLab"
+    #  icon: "fab fa-fw fa-gitlab"
+      # url: 
+    #- label: "Bitbucket"
+    # icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://instagram.com/lake__leeee/"
 
 
 # Reading Files
@@ -227,6 +227,8 @@ sass:
 
 # Outputting
 permalink: /:year/:month/:day/:title.html
+paginate: 6 # amount of posts to show   # defaults: 5
+paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -323,3 +325,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+# _pages                  : 아래를 새로 추가
+  - scope:
+    path: "_pages"
+    type: pages
+    values:
+    layout: single
+    author_profile: true
