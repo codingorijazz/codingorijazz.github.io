@@ -128,7 +128,7 @@ Azure Custom Vision에서 새로운 프로젝트를 만들 때 다음과 같이 
 
 - **Project Types** : Classification (분류)
 - **Classification Types** : Multilabel
-- 
+
 ![[Pasted image 20250309225352.png]]
 
 처음에는 Azure Custom Vision에 대한 정보가 부족했기에,  
